@@ -1,0 +1,9 @@
+F:\Console applications\WebApplication10\WebApplication10\bin\WebApplication10.dll
+F:\Console applications\WebApplication10\WebApplication10\bin\WebApplication10.pdb
+F:\Console applications\WebApplication10\WebApplication10\obj\Debug\WebApplication10.dll
+F:\Console applications\WebApplication10\WebApplication10\obj\Debug\WebApplication10.pdb
+C:\Users\300651327\Desktop\WebApplication10\WebApplication10\bin\WebApplication10.dll
+C:\Users\300651327\Desktop\WebApplication10\WebApplication10\bin\WebApplication10.pdb
+C:\Users\300651327\Desktop\WebApplication10\WebApplication10\obj\Debug\WebApplication10.dll
+C:\Users\300651327\Desktop\WebApplication10\WebApplication10\obj\Debug\WebApplication10.pdb
+F:\Console applications\WebApplication10\WebApplication10\obj\Debug\WebApplication10.csprojResolveAssemblyReference.cache

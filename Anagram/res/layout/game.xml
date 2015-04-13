@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor" >
+
+    <TextView
+        android:id="@+id/difficultyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/scrambledWordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/difficultyText"
+        android:layout_below="@+id/difficultyText"
+        android:layout_marginTop="23dp"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/guessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scrambledWordTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:onClick="myClickHandler"
+        android:text="@string/guess" />
+
+    <TextView
+        android:id="@+id/hintTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/guessButton"
+        android:layout_alignRight="@+id/guessButton"
+        android:layout_marginBottom="53dp"
+        android:text="TextView"
+        android:maxLines="10"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scrambledWordTextView"
+        android:layout_centerVertical="true"
+        android:background="@color/editColor"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/previousWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/guessButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="TextView" />
+
+</RelativeLayout>

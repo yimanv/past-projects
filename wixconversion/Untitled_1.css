@@ -1,0 +1,83 @@
+﻿#footer {
+    width:100%; 
+    background-color:#4F8E83;
+    position: absolute;
+    left:0%;
+    top:90%;
+    z-index:-1;
+    height:10%;
+    align:right;
+}
+
+#info
+{
+ position: absolute;
+
+ top:50%;
+ left:50%;
+  
+ 
+
+	
+}
+#music
+{
+ position: absolute;
+
+ top:50%;
+ Width:45%;
+ height:40%;
+  
+ 
+
+	
+}
+
+#twitter{
+left:85%;
+top:90%;
+ position: absolute;
+}
+
+#fb-root{
+
+left:50%;
+top:90%;
+position: absolute;
+}
+
+#eli{
+left:16.66%;
+top:0%;
+position: absolute;
+  opacity: 0.4;
+width:16.66%;
+height:50%;
+}
+
+#mood{
+top:0%;
+left:83.3%;
+position: absolute;
+  opacity: 0.4;
+width:16.66%;
+height:50%;
+}
+
+#vocal{
+top:0%;
+left:52%;
+position: absolute;
+  opacity: 0.4;
+width:16.66%;
+height:50%;
+}
+
+#topofpage{
+
+top: 0%;
+left:0%;
+position: absolute;
+}
+
+

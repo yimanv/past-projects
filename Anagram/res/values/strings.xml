@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anagram</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name:</string>
+    <string name="education_level">Education Level:</string>
+    <string name="age">Age:</string>
+    <color name="editColor">#FFFFFF</color>
+    <color name="bgColor">#ff4980</color>
+    <string name="submit">Submit</string>
+    <string name="guess">Guess</string>
+    <string name="restart">Restart</string>
+    <string name="lost">You have lost!</string>
+    <string name="next">Next Word</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="difficulty">Select a difficulty:</string>
+    <string name="hint">Hint</string>
+
+</resources>

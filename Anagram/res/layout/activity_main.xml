@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/name"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameTextView"
+        android:layout_below="@+id/nameTextView"
+        android:background="@color/editColor"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/educationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEditText"
+        android:layout_below="@+id/nameEditText"
+        android:layout_marginTop="34dp"
+        android:text="@string/education_level"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/educationEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/educationTextView"
+        android:layout_below="@+id/educationTextView"
+        android:background="@color/editColor"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ageTextView"
+        android:layout_below="@+id/ageTextView"
+        android:background="@color/editColor"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ageEditText"
+        android:layout_marginTop="49dp"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/educationEditText"
+        android:layout_below="@+id/educationEditText"
+        android:layout_marginTop="16dp"
+        android:text="@string/age"
+        android:textSize="30sp" />
+
+</RelativeLayout>

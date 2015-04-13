@@ -1,0 +1,10 @@
+F:\Console applications\ConsoleApplication40\ConsoleApplication40\bin\Debug\ConsoleApplication40.exe
+F:\Console applications\ConsoleApplication40\ConsoleApplication40\bin\Debug\ConsoleApplication40.pdb
+F:\Console applications\ConsoleApplication40\ConsoleApplication40\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Console applications\ConsoleApplication40\ConsoleApplication40\obj\x86\Debug\ConsoleApplication40.exe
+F:\Console applications\ConsoleApplication40\ConsoleApplication40\obj\x86\Debug\ConsoleApplication40.pdb
+F:\Console applications\ArmoryApplication\ConsoleApplication40\obj\x86\Debug\ConsoleApplication40.exe
+F:\Console applications\ArmoryApplication\ConsoleApplication40\obj\x86\Debug\ConsoleApplication40.pdb
+F:\Console applications\ArmoryApplication\ConsoleApplication40\bin\Debug\ConsoleApplication40.exe
+F:\Console applications\ArmoryApplication\ConsoleApplication40\bin\Debug\ConsoleApplication40.pdb
+F:\Console applications\ArmoryApplication\ConsoleApplication40\obj\x86\Debug\ConsoleApplication40.csprojResolveAssemblyReference.cache
